@@ -5,7 +5,7 @@ const mongo = {
 
   async connect() {
     try {
-      const client = new MongoClient(process.env.MONGODB_URL);
+      const client = new MongoClient(process.env.MONGODB_URL2);
       await client.connect();
       console.log("mongo db drive connected successfully");
 
